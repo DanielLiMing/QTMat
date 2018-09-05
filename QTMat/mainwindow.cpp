@@ -13,15 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-//    this->show();
     ui->setupUi(this);
-//    QImage image("jinx.jpeg");
-//    qDebug() << "width: " << ui->ori_img->width() << "  height:" << ui->ori_img->height();
-//    QImage newImg = image.scaled(ui->ori_img->width(),ui->ori_img->height());
-//    ui->ori_img->setPixmap(QPixmap::fromImage(newImg));
-//    ui->ori_img->show();
-
-
 }
 
 MainWindow::~MainWindow()
