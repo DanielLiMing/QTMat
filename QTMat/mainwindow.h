@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QString>
 
 namespace Ui {
 class MainWindow;
@@ -30,6 +31,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QString path;
 };
 
 #endif // MAINWINDOW_H
